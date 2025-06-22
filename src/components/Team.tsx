@@ -1,4 +1,3 @@
-
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent } from "@/components/ui/card";
 
@@ -9,42 +8,42 @@ const Team = () => {
       role: "Lead AI Engineer",
       bio: "Specializes in computer vision and machine learning. Passionate about solving urban mobility challenges through AI.",
       avatar: "AS",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face"
+      image: "/lovable-uploads/02d7b8fa-0d2c-45bc-b080-14337d069a8e.png"
     },
     {
       name: "Priya Patel",
       role: "Full-Stack Developer",
       bio: "Expert in React and Flask development. Focuses on creating intuitive user experiences for complex data.",
       avatar: "PP",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b47c?w=300&h=300&fit=crop&crop=face"
+      image: "/lovable-uploads/8e1f37a8-2468-4142-b42c-449a8d06a5b2.png"
     },
     {
       name: "Rohit Kumar",
       role: "Backend Engineer",
       bio: "Database architect and API specialist. Ensures scalable infrastructure for real-time data processing.",
       avatar: "RK",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face"
+      image: "/lovable-uploads/6b19c468-9179-42bf-8183-4d0f28403035.png"
     },
     {
       name: "Sneha Reddy",
       role: "UX/UI Designer",
       bio: "Creates user-centered designs that make complex geospatial data accessible to everyone.",
       avatar: "SR",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face"
+      image: "/lovable-uploads/37401609-5db3-44b8-b32f-94acacd44d93.png"
     },
     {
       name: "Karthik Menon",
       role: "Data Scientist",
       bio: "Specializes in geospatial analysis and pathfinding algorithms. Transforms raw data into actionable insights.",
       avatar: "KM",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&crop=face"
+      image: "/lovable-uploads/28d0a5af-0cc5-440d-888b-43097675e11c.png"
     },
     {
       name: "Ananya Singh",
       role: "Product Manager",
       bio: "Bridges technology and user needs. Ensures our solutions address real-world pedestrian challenges.",
       avatar: "AS",
-      image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=300&h=300&fit=crop&crop=face"
+      image: "/lovable-uploads/701036cd-7521-40be-a55d-75e5f538a911.png"
     }
   ];
 
