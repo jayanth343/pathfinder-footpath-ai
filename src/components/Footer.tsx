@@ -1,5 +1,5 @@
 
-import { MapPin, Upload, ArrowUp } from "lucide-react";
+import { Upload, ArrowUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Footer = () => {
@@ -13,8 +13,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <div className="p-2 bg-primary rounded-2xl">
-                <MapPin className="h-6 w-6 text-primary-foreground" />
+              <div className="w-12 h-12 bg-white rounded-2xl p-2 shadow-lg">
+                <img 
+                  src="/lovable-uploads/303de826-e2be-4d59-82de-13fb6a18e67c.png" 
+                  alt="Pathfinders Logo" 
+                  className="w-full h-full object-contain"
+                />
               </div>
               <span className="text-2xl font-bold text-foreground">Pathfinders</span>
             </div>

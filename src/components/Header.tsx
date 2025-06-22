@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { MapPin, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
 const Header = () => {
@@ -11,8 +11,12 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <div className="p-2 bg-primary rounded-2xl">
-              <MapPin className="h-6 w-6 text-primary-foreground" />
+            <div className="w-10 h-10 bg-white rounded-2xl p-1.5 shadow-lg">
+              <img 
+                src="/lovable-uploads/303de826-e2be-4d59-82de-13fb6a18e67c.png" 
+                alt="Pathfinders Logo" 
+                className="w-full h-full object-contain"
+              />
             </div>
             <span className="text-2xl font-bold text-foreground">Pathfinders</span>
           </div>
