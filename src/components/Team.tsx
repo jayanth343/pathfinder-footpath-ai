@@ -4,45 +4,43 @@ import { Card, CardContent } from "@/components/ui/card";
 const Team = () => {
   const teamMembers = [
     {
-      name: "Arjun Sharma",
-      role: "Lead AI Engineer",
-      bio: "Specializes in computer vision and machine learning. Passionate about solving urban mobility challenges through AI.",
-      avatar: "AS",
+      name: "Shravan Jain",
+      avatar: "SJ",
       image: "/lovable-uploads/02d7b8fa-0d2c-45bc-b080-14337d069a8e.png"
     },
     {
-      name: "Priya Patel",
+      name: "Indraneel KVS",
       role: "Full-Stack Developer",
       bio: "Expert in React and Flask development. Focuses on creating intuitive user experiences for complex data.",
-      avatar: "PP",
+      avatar: "IK",
       image: "/lovable-uploads/8e1f37a8-2468-4142-b42c-449a8d06a5b2.png"
     },
     {
-      name: "Rohit Kumar",
+      name: "Fardeen Shaikh",
       role: "Backend Engineer",
       bio: "Database architect and API specialist. Ensures scalable infrastructure for real-time data processing.",
-      avatar: "RK",
+      avatar: "FS",
       image: "/lovable-uploads/6b19c468-9179-42bf-8183-4d0f28403035.png"
     },
     {
-      name: "Sneha Reddy",
+      name: "Ishaan Swain",
       role: "UX/UI Designer",
       bio: "Creates user-centered designs that make complex geospatial data accessible to everyone.",
-      avatar: "SR",
+      avatar: "IS",
       image: "/lovable-uploads/37401609-5db3-44b8-b32f-94acacd44d93.png"
     },
     {
-      name: "Karthik Menon",
+      name: "Siddharth K",
       role: "Data Scientist",
       bio: "Specializes in geospatial analysis and pathfinding algorithms. Transforms raw data into actionable insights.",
-      avatar: "KM",
+      avatar: "SK",
       image: "/lovable-uploads/28d0a5af-0cc5-440d-888b-43097675e11c.png"
     },
     {
-      name: "Ananya Singh",
+      name: "Jayanth Srinivasan",
       role: "Product Manager",
       bio: "Bridges technology and user needs. Ensures our solutions address real-world pedestrian challenges.",
-      avatar: "AS",
+      avatar: "JS",
       image: "/lovable-uploads/701036cd-7521-40be-a55d-75e5f538a911.png"
     }
   ];
