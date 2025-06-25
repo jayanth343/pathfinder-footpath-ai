@@ -2,6 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -31,17 +32,20 @@ const Header = () => {
             <a href="#data" className="text-muted-foreground hover:text-foreground transition-colors">
               Data
             </a>
+            <ThemeToggle />
             <Button className="rounded-full px-6">
               Get Started
             </Button>
           </nav>
 
-          <button
-            className="md:hidden"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-          >
-            {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-          </button>
+          <div className="md:hidden flex items-center space-x-2">
+            <ThemeToggle />
+            <button
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+            >
+              {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            </button>
+          </div>
         </div>
 
         {isMenuOpen && (

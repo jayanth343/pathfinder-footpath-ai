@@ -46,8 +46,8 @@ const Hero = () => {
               <div className="text-muted-foreground">Cities Mapped</div>
             </div>
             <div className="bg-card/50 backdrop-blur-sm rounded-2xl p-6 border border-border/50 hover:border-primary/30 transition-all duration-300 animate-float" style={{animationDelay: '4s'}}>
-              <div className="text-3xl font-bold text-primary mb-2">7-Member</div>
-              <div className="text-muted-foreground">Dev Team</div>
+              <div className="text-3xl font-bold text-primary mb-2">AI-Powered</div>
+              <div className="text-muted-foreground">Walkability Analysis</div>
             </div>
           </div>
         </div>

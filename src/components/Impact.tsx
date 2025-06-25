@@ -1,6 +1,7 @@
 
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import Testimonials from "@/components/Testimonials";
 
 const Impact = () => {
   return (
@@ -41,19 +42,19 @@ const Impact = () => {
           <Card className="p-8 hover:shadow-xl transition-all duration-300 border-border/50 hover:border-primary/30">
             <div className="flex items-center mb-6">
               <div className="p-3 bg-primary/10 rounded-2xl mr-4">
-                <span className="text-2xl">👥</span>
+                <span className="text-2xl">🎓</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-foreground">7-Member Dev Team</h3>
+                <h3 className="text-xl font-bold text-foreground">Student Innovation</h3>
                 <p className="text-muted-foreground">PES University</p>
               </div>
             </div>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              A diverse team of computer science students passionate about using technology 
+              Developed by computer science students passionate about using technology 
               for social good and creating sustainable urban solutions.
             </p>
             <div className="flex items-center text-sm text-primary font-medium">
-              <span className="mr-2">🎓</span>
+              <span className="mr-2">💡</span>
               Computer Science & Engineering
             </div>
           </Card>
@@ -78,7 +79,9 @@ const Impact = () => {
           </Card>
         </div>
 
-        <div className="bg-gradient-to-r from-primary to-primary/80 rounded-3xl p-8 md:p-12 text-center text-primary-foreground">
+        <Testimonials />
+
+        <div className="bg-gradient-to-r from-primary to-primary/80 rounded-3xl p-8 md:p-12 text-center text-primary-foreground mt-16">
           <h3 className="text-2xl md:text-3xl font-bold mb-4">Recognition & Future Vision</h3>
           <p className="text-lg mb-8 max-w-3xl mx-auto opacity-90 leading-relaxed">
             Our innovative approach caught the attention of urban planners, mobility experts, and tech leaders. 
