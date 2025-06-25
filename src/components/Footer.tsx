@@ -44,15 +44,12 @@ const Footer = () => {
               <li><a href="#" className="hover:text-foreground transition-colors">Upload Photo</a></li>
               <li><a href="#" className="hover:text-foreground transition-colors">Plan Route</a></li>
               <li><a href="#" className="hover:text-foreground transition-colors">View Map</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">API Access</a></li>
             </ul>
           </div>
           
           <div>
             <h3 className="font-semibold text-foreground mb-4">Community</h3>
             <ul className="space-y-3 text-muted-foreground">
-              <li><a href="#" className="hover:text-foreground transition-colors">Join Movement</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Report Issues</a></li>
               <li><a href="#" className="hover:text-foreground transition-colors">Success Stories</a></li>
               <li><a href="#" className="hover:text-foreground transition-colors">City Partners</a></li>
               <li><a href="#" className="hover:text-foreground transition-colors">Developer Hub</a></li>
@@ -62,8 +59,6 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-foreground mb-4">About</h3>
             <ul className="space-y-3 text-muted-foreground">
-              <li><a href="#impact" className="hover:text-foreground transition-colors">Our Impact</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">The Team</a></li>
               <li><a href="#" className="hover:text-foreground transition-colors">Press Kit</a></li>
               <li><a href="#" className="hover:text-foreground transition-colors">Careers</a></li>
               <li><a href="#" className="hover:text-foreground transition-colors">Contact</a></li>
