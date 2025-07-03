@@ -9,21 +9,21 @@ const HowItWorks = () => {
       icon: "📸",
       title: "AI Image Analysis",
       description: "Advanced computer vision segments footpath images to detect walkable areas, obstacles, and potential hazards in real-time.",
-      tech: ["TensorFlow", "OpenCV", "Deep Learning"]
+      tech: ["Computer Vision", "Image Analysis", "Deep Learning"]
     },
     {
       step: "02",
       icon: "👥",
       title: "Community Reports",
       description: "Citizens upload photos and report issues directly through our mobile app, creating a comprehensive ground-truth dataset.",
-      tech: ["React Native", "Cloud Storage", "GPS Integration"]
+      tech: ["Mobile App", "Cloud Storage", "GPS Integration"]
     },
     {
       step: "03",
       icon: "⚡",
       title: "Smart Scoring",
       description: "Our algorithm evaluates footpath quality with penalties for hazards like electric boxes, open drains, and accessibility barriers.",
-      tech: ["Machine Learning", "Scoring Algorithm", "Real-time Analytics"]
+      tech: ["Machine Learning", "Quality Assessment", "Real-time Analytics"]
     },
     {
       step: "04",

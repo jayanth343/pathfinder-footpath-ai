@@ -6,13 +6,13 @@ const PlatformFeatures = () => {
   const features = [
     {
       icon: MapPin,
-      title: "Geospatial Heatmaps + OSM Integration",
-      description: "Color-coded walkability scoring on map with dynamic rendering using OpenStreetMaps API"
+      title: "Geospatial Heatmaps + Map Integration",
+      description: "Color-coded walkability scoring on interactive maps with dynamic rendering for real-time visualization"
     },
     {
       icon: Database,
       title: "Backend Infrastructure",
-      description: "Flask API processes AI + user ratings with Supabase for auth and data storage"
+      description: "Secure backend system that processes AI analysis and user ratings with robust authentication and data storage"
     },
     {
       icon: Smartphone,
@@ -22,7 +22,7 @@ const PlatformFeatures = () => {
     {
       icon: Navigation,
       title: "Navigation Component",
-      description: "Safe route suggestions based on profile with A* pathfinding algorithm + real-time obstacle alerts"
+      description: "Safe route suggestions based on user profile with advanced pathfinding technology + real-time obstacle alerts"
     },
     {
       icon: Shield,
