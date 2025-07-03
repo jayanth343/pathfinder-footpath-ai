@@ -93,33 +93,7 @@ const CTA = () => {
           </p>
         </div>
 
-        <div className="text-center mt-16">
-          <div className="inline-flex items-center bg-primary-foreground/10 rounded-full px-6 py-3 mb-6">
-            <div className="flex items-center space-x-2">
-              <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
-              <span className="text-sm font-medium">Live: 847 users improving walkability right now</span>
-            </div>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 max-w-3xl mx-auto">
-            <div>
-              <div className="text-2xl font-bold mb-1">50,247</div>
-              <div className="text-sm opacity-80">Photos Uploaded</div>
-            </div>
-            <div>
-              <div className="text-2xl font-bold mb-1">12</div>
-              <div className="text-sm opacity-80">Cities Mapped</div>
-            </div>
-            <div>
-              <div className="text-2xl font-bold mb-1">1,890</div>
-              <div className="text-sm opacity-80">Issues Reported</div>
-            </div>
-            <div>
-              <div className="text-2xl font-bold mb-1">347</div>
-              <div className="text-sm opacity-80">Fixed This Month</div>
-            </div>
-          </div>
-        </div>
+
       </div>
     </section>
   );

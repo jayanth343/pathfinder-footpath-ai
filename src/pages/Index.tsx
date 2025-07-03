@@ -6,7 +6,7 @@ import Problem from "@/components/Problem";
 import Platform from "@/components/Platform";
 import Impact from "@/components/Impact";
 import DataSection from "@/components/DataSection";
-import AIAnalysisDemo from "@/components/AIAnalysisDemo";
+
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 
@@ -58,9 +58,7 @@ const Index = () => {
           <DataSection />
         </section>
         
-        <section id="ai-demo">
-          <AIAnalysisDemo />
-        </section>
+
         
         <section id="cta">
           <CTA />

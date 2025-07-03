@@ -24,7 +24,7 @@ const Platform = () => {
 
         <div className="text-center mt-12">
           <p className="text-lg text-primary font-semibold">
-            📱 Mobile App Coming Soon
+            📱 Mobile App Coming in 2025
           </p>
         </div>
       </div>

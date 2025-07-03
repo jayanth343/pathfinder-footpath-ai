@@ -78,63 +78,9 @@ const DataSection = () => {
           </Card>
         </div>
 
-        <div className="mb-16">
-          <Card className="p-8 bg-gradient-to-r from-primary/5 via-primary/10 to-primary/5 border-primary/20">
-            <div className="text-center mb-8">
-              <h3 className="text-2xl font-bold mb-4 text-foreground">Smart City Integration Ready</h3>
-              <p className="text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-                Pathfinders is designed to seamlessly integrate with existing smart city infrastructure, 
-                providing APIs and data feeds for comprehensive urban mobility planning.
-              </p>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="text-center">
-                <div className="p-4 bg-background rounded-2xl mb-4 inline-block">
-                  <span className="text-2xl">🏗️</span>
-                </div>
-                <h4 className="font-semibold mb-2 text-foreground">Urban Planning</h4>
-                <p className="text-sm text-muted-foreground">Data-driven footpath development and maintenance planning</p>
-              </div>
-              <div className="text-center">
-                <div className="p-4 bg-background rounded-2xl mb-4 inline-block">
-                  <span className="text-2xl">🚦</span>
-                </div>
-                <h4 className="font-semibold mb-2 text-foreground">Traffic Management</h4>
-                <p className="text-sm text-muted-foreground">Pedestrian flow analysis for signal optimization</p>
-              </div>
-              <div className="text-center">
-                <div className="p-4 bg-background rounded-2xl mb-4 inline-block">
-                  <span className="text-2xl">♿</span>
-                </div>
-                <h4 className="font-semibold mb-2 text-foreground">Accessibility Audits</h4>
-                <p className="text-sm text-muted-foreground">Compliance tracking for inclusive infrastructure</p>
-              </div>
-            </div>
-          </Card>
-        </div>
 
-        <div className="text-center">
-          <div className="inline-flex items-center bg-muted rounded-full p-2 mb-8">
-            <div className="grid grid-cols-4 gap-1">
-              {[...Array(4)].map((_, i) => (
-                <div key={i} className="w-3 h-3 bg-primary rounded-full animate-pulse" style={{animationDelay: `${i * 0.2}s`}}></div>
-              ))}
-            </div>
-            <span className="ml-3 mr-2 text-sm font-medium">Processing live data...</span>
-          </div>
-          <h3 className="text-xl font-semibold mb-4 text-foreground">Ready to Transform Your City's Walkability?</h3>
-          <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-            Partner with us to implement data-driven walkability solutions in your municipality.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button className="rounded-full px-8">
-              Request Partnership
-            </Button>
-            <Button variant="outline" className="rounded-full px-8">
-              Download Data Brief
-            </Button>
-          </div>
-        </div>
+
+
       </div>
     </section>
   );

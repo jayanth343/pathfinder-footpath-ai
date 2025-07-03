@@ -97,18 +97,7 @@ const AIAnalysisDemo = () => {
                 }}
               />
               
-              {/* Scanning line effect */}
-              <motion.div 
-                className="absolute top-0 left-0 w-full h-2 bg-primary/50 rounded-t-2xl"
-                initial={{ top: 0 }}
-                animate={{ top: "100%" }}
-                transition={{
-                  duration: 2.5,
-                  repeat: Infinity,
-                  repeatType: "loop",
-                  ease: "linear"
-                }}
-              />
+
             </motion.div>
             <motion.p className="text-muted-foreground text-center" variants={itemVariants}>
               <strong>Grey Area:</strong> Area segmented by our AI instance segmentation model
