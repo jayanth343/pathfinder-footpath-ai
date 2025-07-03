@@ -43,7 +43,7 @@ const DataSection = () => {
               </li>
             </ul>
             <Button variant="outline" className="rounded-full">
-              View Demo Dashboard
+              View Data Insights
             </Button>
           </Card>
 
